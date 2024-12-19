@@ -1,6 +1,10 @@
 # bmkg-api-python
 Kode Python ini dirancang untuk mengambil data cuaca dari API BMKG, mengolahnya, dan menyimpan hasilnya dalam bentuk file JSON. Selain itu, kode ini juga menyediakan user interface berupa grafik untuk mempermudah analisis data cuaca. kalian dapat mengambil data dari waktu kapanpun selama data tersebut masih tersedia di API BMKG-nya sendiri. Berikut adalah penjelasan rinci mengenai cara kerjanya:
 
+kode dapat diakses melalui: https://github.com/msulthannasyira/bmkg-api-python
+
+API BMKG dapat diakses melalui: https://api.bmkg.go.id/publik/prakiraan-cuaca?adm4=33.24.12.2006&fbclid=IwZXh0bgNhZW0CMTAAAR35ShvcFv-oBidD3IvMzV7ffDcUmkUfgcO5ytLXwRW762RECImdXoFoHbM_aem_BnmytKhbVDWA3T0G0QPooQ
+
 ## Screenshot Tampilan
 
 ![image](https://github.com/user-attachments/assets/81ef7518-298c-4770-95f8-e1348eb2b216)
