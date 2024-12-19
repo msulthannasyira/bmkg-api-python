@@ -11,6 +11,8 @@ API BMKG dapat diakses melalui: https://api.bmkg.go.id/publik/prakiraan-cuaca?ad
 
 ![image](https://github.com/user-attachments/assets/8e42cd4d-d157-4e79-a6e0-4eb9ad6f654b)
 
+![image](https://github.com/user-attachments/assets/42c793cf-29f9-4be7-af5c-6f3362f4673d)
+
 ## Langkah-langkah Program
 
 ### 1. Mengimpor Library
