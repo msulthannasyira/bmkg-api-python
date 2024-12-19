@@ -1,0 +1,194 @@
+[
+    {
+        "Time": "2024-12-19T00:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T01:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T02:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T03:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T04:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T05:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T06:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T07:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T08:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T09:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T10:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T11:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T12:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T13:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T14:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T15:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T16:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T17:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T18:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T19:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T20:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    },
+    {
+        "Time": "2024-12-19T21:00:00Z",
+        "Temperature": 26,
+        "Weather Description": "Berawan",
+        "Wind Speed (m/s)": 2.6,
+        "Humidity (%)": 84,
+        "Visibility (m)": 5995
+    },
+    {
+        "Time": "2024-12-19T22:00:00Z",
+        "Temperature": 27,
+        "Weather Description": "Cerah",
+        "Wind Speed (m/s)": 3.0,
+        "Humidity (%)": 80,
+        "Visibility (m)": 6100
+    },
+    {
+        "Time": "2024-12-19T23:00:00Z",
+        "Temperature": 28,
+        "Weather Description": "Hujan",
+        "Wind Speed (m/s)": 4.5,
+        "Humidity (%)": 90,
+        "Visibility (m)": 5800
+    }
+]
