@@ -1,5 +1,11 @@
 # bmkg-api-python
-disini saya akan memberikan kode yang dapat mengambil data dari API bmkg yang selanjutnya dapat di save menjadi json file dan antarmuka dalam bentuk grafik. Berikut adalah penjelasan rinci:
+Kode Python ini saya rancang untuk mengambil data cuaca dari API BMKG, mengolahnya, dan menyimpan hasilnya dalam bentuk file JSON. Selain itu, kode ini juga menyediakan user interface berupa grafik untuk mempermudah analisis data cuaca. kalian dapat mengambil data dari waktu kapanpun selama data tersebut masih tersedia di API BMKG-nya sendiri. Berikut adalah penjelasan rinci mengenai cara kerjanya:
+
+## Screenshot Tampilan
+
+![image](https://github.com/user-attachments/assets/81ef7518-298c-4770-95f8-e1348eb2b216)
+
+![image](https://github.com/user-attachments/assets/8e42cd4d-d157-4e79-a6e0-4eb9ad6f654b)
 
 ## Langkah-langkah Program
 
@@ -13,7 +19,43 @@ disini saya akan memberikan kode yang dapat mengambil data dari API bmkg yang se
 
 • `datetime` untuk menangani data waktu.
 
-### 2. Input Tanggal Prakiraan
+### 2. Edit Lokasi
+
+• Untuk mengedit lokasi dalam kode, cukup ganti informasi yang terdapat pada kunci lokasi dan dalam elemen lokasi pada data cuaca. Berikut adalah lokasi yang sudah diperbarui ke tempat baru:
+
+```python
+weather_data = {
+    'lokasi': {
+        'provinsi': 'Jawa Timur',  # Ganti provinsi
+        'kotkab': 'Surabaya',      # Ganti kota/kabupaten
+        'kecamatan': 'Wonokromo',  # Ganti kecamatan
+        'desa': 'Darmo',           # Ganti desa
+        'lon': 112.7398983,        # Ganti longitude
+        'lat': -7.2891668,         # Ganti latitude
+        'timezone': 'Asia/Jakarta' # Zona waktu
+    },
+    'data': [
+        {
+            'lokasi': {
+                'provinsi': 'Jawa Timur',  # Ganti provinsi
+                'kotkab': 'Surabaya',      # Ganti kota/kabupaten
+                'kecamatan': 'Wonokromo',  # Ganti kecamatan
+                'desa': 'Darmo',           # Ganti desa
+                'lon': 112.7398983,        # Ganti longitude
+                'lat': -7.2891668,         # Ganti latitude
+                'timezone': '+0700',       # Ganti zona waktu jika perlu
+                'type': 'adm4'
+            },
+            'cuaca': [
+                # Data cuaca tetap sama seperti sebelumnya
+            ]
+        }
+    ]
+}
+```
+• Setelah mengganti lokasi sesuai kebutuhan, Anda dapat menjalankan kembali kode untuk mendapatkan data yang diperbarui dengan informasi lokasi tersebut. Jika ada elemen lain yang perlu diperbarui, tambahkan dalam struktur data sesuai format yang ada.
+
+### 3. Input Tanggal Ramalan Cuaca
 
 ```python
 forecast_date = input("Enter the forecast date (YYYY-MM-DD): ")
@@ -21,7 +63,7 @@ forecast_date = input("Enter the forecast date (YYYY-MM-DD): ")
 
 • Pengguna diminta memasukkan tanggal prakiraan dalam format YYYY-MM-DD.
 
-### 3. Data Cuaca Sampel
+### 4. Sampel Data Cuaca
 
 • Data cuaca disimpan dalam format JSON. Data ini mencakup informasi lokasi (provinsi, kota, kecamatan, desa, longitude, latitude, dll.) dan data prakiraan cuaca per jam.
 
@@ -39,13 +81,13 @@ forecast_date = input("Enter the forecast date (YYYY-MM-DD): ")
 
 • `vs`: Jarak pandang (m).
 
-### 4. Ekstraksi Data
+### 5. Ekstraksi Data
 
 • Program mengambil data cuaca dari struktur JSON, mengolahnya menjadi beberapa list (time_series, temperature_series, dll.).
 
 • Data waktu diubah menjadi objek `datetime` agar dapat diolah lebih lanjut.
 
-### 5. Membuat DataFrame
+### 6. Membuat DataFrame
 
 • Jika terdapat data cuaca, program membuat DataFrame menggunakan `pandas` dengan kolom:
 
@@ -63,17 +105,17 @@ forecast_date = input("Enter the forecast date (YYYY-MM-DD): ")
 
 • Kolom `Time` diubah ke format string agar bisa diserialisasi ke JSON.
 
-### 6. Membuat Grafik
+### 7. Membuat Grafik
 
 • Grafik suhu dan kelembapan dibuat menggunakan `matplotlib`. Data waktu diplot pada sumbu x, sementara suhu dan kelembapan diplot pada sumbu y.
 
 • Grafik diberi label, legenda, dan disimpan dalam file gambar dengan nama `weather_forecast.png`.
 
-### 7. Menyimpan Data ke File JSON
+### 8. Menyimpan Data ke File JSON
 
 • Data DataFrame dikonversi menjadi format JSON menggunakan `to_dict(orient='records')` dan disimpan dalam file bernama `weather_forecast_data.json`.
 
-### 8. Output
+### 9. Output
 
 • Program memberi tahu lokasi file hasil dalam pesan terminal:
 
